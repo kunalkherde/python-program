@@ -1,0 +1,7 @@
+f = open("data.txt","r")
+s=f.read()
+re =s.replace("h","a")
+f.close()
+f1 =open("password.txt","w")
+f1.writelines(re)
+f.close()

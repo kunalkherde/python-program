@@ -1,0 +1,1 @@
+print([x for x in range(2,50,2)],[x for x in range(1,50,2)],sep="\n\n")
